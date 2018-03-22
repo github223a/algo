@@ -15,3 +15,5 @@ const insertionSort = (array) => {
 };
 
 export default insertionSort;
+
+// best O(n); worst O(n^2);

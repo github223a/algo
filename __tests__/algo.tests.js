@@ -4,8 +4,15 @@ import binarySearch from '../src/binarySearch';
 import selectionSort from '../src/selectionSort';
 import quickSort from '../src/quickSort';
 import sortGraph from '../src/topological_sort';
+import bubble from '../src/bubbleSort';
 
 describe('tests chapter_1', () => {
+  test('bublbe test', () => {
+    const arr = [1, 3, 2, 4, 6, 5, 7, 9, 8].sort();
+    const result = bubble(arr);
+    expect(result).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9]);
+  });
+
   test('binary search', () => {
     const arr = [1, 3, 2, 4, 6, 5, 7, 9, 8].sort();
     const result = binarySearch(arr, 3);
