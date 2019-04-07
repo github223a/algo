@@ -5,3 +5,5 @@ flow-typed
 .tern-port
 *.sqlite
 /public/
+.DS_Store
+package-lock.json
