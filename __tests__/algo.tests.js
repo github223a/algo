@@ -6,6 +6,7 @@ const {
     selectionSort,
     quickSort,
     topologicalSort,
+    liSearch,
 } = require('../src/index.js');
 
 describe('tests chapter_1', () => {
@@ -53,5 +54,13 @@ describe('tests chapter_1', () => {
         };
         const result1 = ['mongo', 'thread_safe', 'tzinfo', 'json', 'execjs', 'uglifier', 'redis'];
         expect(topologicalSort(graph1)).toEqual(result1);
+    });
+
+    test('(-)li-search-algoritm', () => {
+        expect(liSearch(0, 0, 8, 1)).toEqual('Incorrect entry data');
+    });
+
+    test('(+)li-search-algoritm', () => {
+        expect(liSearch(1, 8, 8, 1)).toEqual(14);
     });
 });
