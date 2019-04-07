@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6008c2b2-d1fa-4fe9-885a-0a34b2d00111" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/li-algoritm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/algo.tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/algo.tests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/li-algoritm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/li-algoritm.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,8 +28,8 @@
       <file leaf-file-name="li-algoritm.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/li-algoritm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="76" column="30" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
+            <state relative-caret-position="-352">
+              <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -52,12 +49,14 @@
       <find>]</find>
       <find>delta</find>
       <find>move</find>
+      <find>d</find>
     </findStrings>
     <replaceStrings>
       <replace>topologicalSort</replace>
       <replace>]</replace>
       <replace>move</replace>
       <replace>d</replace>
+      <replace>step</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -459,8 +458,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/li-algoritm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="76" column="30" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
+        <state relative-caret-position="-352">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
