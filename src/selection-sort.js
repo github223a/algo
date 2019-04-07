@@ -5,8 +5,10 @@ const selectionSort = array => {
         }
         const min = Math.min.apply(null, arr);
         const index = arr.indexOf(min);
+
         arr.splice(index, 1);
         acc.push(min);
+
         return iter(arr, acc);
     };
 
