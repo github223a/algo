@@ -13,3 +13,17 @@ const quickSort = array => {
 module.exports = quickSort;
 
 // O(log n)
+
+
+const quickSort = arr => {
+    if (!arr.length) {
+        return [];
+    }
+
+    const head = arr[0];
+    const less = arr.filter(item => item < head);
+    const equal = arr.filter(item => item === head);
+    const more = arr.filter(item => item > head);
+
+    return quickSort(less).concat(equal, quickSort(more));
+};
