@@ -1,17 +1,15 @@
 const filter = (fn, items) => {
-    if (!items.length) {
-        return [];
-    }
+    const iter = (elements, acc) => {
+        if (!elements.length) {
+            return acc;
+        }
+        const [head, ...other] = elements;
 
-    const res = [];
-    const [head, ...other] = items;
-
-    if (fn(head)) {
-        res.push(head);
-    }
-    return filter(fn, other);
+        fn(head) && acc.push(head);
+        return iter(other, acc);
+    };
+    return iter(items, []);
 };
 
-const check = item => item % 2 === 0;
-
-console.log(filter(check, [2, 5, 6, 24, 12, 32]));
+const check = item => item === 2;
+console.log(filter(check, [2, 5, 6, 24, 2, 2]));
